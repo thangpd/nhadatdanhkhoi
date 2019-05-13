@@ -4325,3 +4325,34 @@ p > object:only-child {
 		padding: 0;
 	}
 }
+
+.upload-thumb {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	background: #e2e2e2;
+	border: 1px solid #cdcdcd;
+	line-height: 120px;
+	margin-bottom: 10px;
+}
+.upload-thumb.cover {
+	width: 500px;
+}
+
+.file-upload {
+	position: relative;
+	overflow: hidden;
+}
+
+.file-upload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}

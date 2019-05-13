@@ -247,3 +247,63 @@
 	});
 
 })( jQuery );
+
+
+(function($){
+
+	$('input[type=file][data-ajaxed=Y]').on('change', function(event) {
+
+		files = event.target.files;
+		var cont = $(this).attr('data-cont');
+		var name = $(this).attr('name');
+
+		var data = new FormData();
+		$.each(files, function(key, value)
+		{
+			data.append(key, value);
+		});
+
+		data.append('partner_info_post_id', $(this).closest('form').find("#partner_info_post_id").val() );
+		data.append('type', $(this).data('type'));
+
+		// $(cont).html('<img src="/assets/images/preloader.gif" />');
+
+		$.ajax({
+			url: 'http://localhost/nhadatdanhkhoi/wp-admin/admin-ajax.php?action=file_upload&fname='+name, // Url to which the request is send
+			type: "POST",             // Type of request to be send, called as method
+			data: data, // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+
+			dataType: 'json',
+			contentType: false,       // The content type used when sending data to the server.
+			cache: false,             // To unable request pages to be cached
+			processData:false,        // To send DOMDocument or non processed data file it is set to false
+			success: function(data)   // A function to be called if request succeeds
+			{
+				console.log(data);
+				if(data.error)
+				{
+					alert(data.error);
+				}
+				else
+				{
+					$(cont).html('<img src="'+data.src+'" style="max-width:100%;" />');
+					$('[name='+name+'_aid]').val(data.aid);
+				}
+			},
+			error: function(jqXHR, textStatus, errorThrown)
+			{
+				// Handle errors here
+				console.log('ERRORS: ' + textStatus);
+				alert('ERRORS: ' + textStatus);
+				$(cont).html('error');
+				// STOP LOADING SPINNER
+			}
+		});
+
+	});
+
+
+})(jQuery);
+
+
+

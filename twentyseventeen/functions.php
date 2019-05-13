@@ -14,6 +14,7 @@
  */
 if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '<' ) ) {
 	require get_template_directory() . '/inc/back-compat.php';
+
 	return;
 }
 
@@ -92,9 +93,9 @@ function twentyseventeen_setup() {
 
 	// Add theme support for Custom Logo.
 	add_theme_support( 'custom-logo', array(
-		'width'       => 250,
-		'height'      => 250,
-		'flex-width'  => true,
+		'width'      => 250,
+		'height'     => 250,
+		'flex-width' => true,
 	) );
 
 	// Add theme support for selective refresh for widgets.
@@ -108,7 +109,7 @@ function twentyseventeen_setup() {
 
 	// Define and register starter content to showcase the theme on new sites.
 	$starter_content = array(
-		'widgets' => array(
+		'widgets'     => array(
 			// Place three core-defined widgets in the sidebar area.
 			'sidebar-1' => array(
 				'text_business_info',
@@ -129,15 +130,15 @@ function twentyseventeen_setup() {
 		),
 
 		// Specify the core-defined pages to create and add custom thumbnails to some of them.
-		'posts' => array(
+		'posts'       => array(
 			'home',
-			'about' => array(
+			'about'            => array(
 				'thumbnail' => '{{image-sandwich}}',
 			),
-			'contact' => array(
+			'contact'          => array(
 				'thumbnail' => '{{image-espresso}}',
 			),
-			'blog' => array(
+			'blog'             => array(
 				'thumbnail' => '{{image-coffee}}',
 			),
 			'homepage-section' => array(
@@ -149,27 +150,27 @@ function twentyseventeen_setup() {
 		'attachments' => array(
 			'image-espresso' => array(
 				'post_title' => _x( 'Espresso', 'Theme starter content', 'twentyseventeen' ),
-				'file' => 'assets/images/espresso.jpg', // URL relative to the template directory.
+				'file'       => 'assets/images/espresso.jpg', // URL relative to the template directory.
 			),
 			'image-sandwich' => array(
 				'post_title' => _x( 'Sandwich', 'Theme starter content', 'twentyseventeen' ),
-				'file' => 'assets/images/sandwich.jpg',
+				'file'       => 'assets/images/sandwich.jpg',
 			),
-			'image-coffee' => array(
+			'image-coffee'   => array(
 				'post_title' => _x( 'Coffee', 'Theme starter content', 'twentyseventeen' ),
-				'file' => 'assets/images/coffee.jpg',
+				'file'       => 'assets/images/coffee.jpg',
 			),
 		),
 
 		// Default to a static front page and assign the front and posts pages.
-		'options' => array(
-			'show_on_front' => 'page',
-			'page_on_front' => '{{home}}',
+		'options'     => array(
+			'show_on_front'  => 'page',
+			'page_on_front'  => '{{home}}',
 			'page_for_posts' => '{{blog}}',
 		),
 
 		// Set the front page section theme mods to the IDs of the core-registered pages.
-		'theme_mods' => array(
+		'theme_mods'  => array(
 			'panel_1' => '{{homepage-section}}',
 			'panel_2' => '{{about}}',
 			'panel_3' => '{{blog}}',
@@ -177,12 +178,13 @@ function twentyseventeen_setup() {
 		),
 
 		// Set up nav menus for each of the two areas registered in the theme.
-		'nav_menus' => array(
+		'nav_menus'   => array(
 			// Assign a menu to the "top" location.
-			'top' => array(
-				'name' => __( 'Top Menu', 'twentyseventeen' ),
+			'top'    => array(
+				'name'  => __( 'Top Menu', 'twentyseventeen' ),
 				'items' => array(
-					'link_home', // Note that the core "home" page is actually a link in case a static front page is not used.
+					'link_home',
+					// Note that the core "home" page is actually a link in case a static front page is not used.
 					'page_about',
 					'page_blog',
 					'page_contact',
@@ -191,7 +193,7 @@ function twentyseventeen_setup() {
 
 			// Assign a menu to the "social" location.
 			'social' => array(
-				'name' => __( 'Social Links Menu', 'twentyseventeen' ),
+				'name'  => __( 'Social Links Menu', 'twentyseventeen' ),
 				'items' => array(
 					'link_yelp',
 					'link_facebook',
@@ -214,6 +216,7 @@ function twentyseventeen_setup() {
 
 	add_theme_support( 'starter-content', $starter_content );
 }
+
 add_action( 'after_setup_theme', 'twentyseventeen_setup' );
 
 /**
@@ -253,6 +256,7 @@ function twentyseventeen_content_width() {
 	 */
 	$GLOBALS['content_width'] = apply_filters( 'twentyseventeen_content_width', $content_width );
 }
+
 add_action( 'template_redirect', 'twentyseventeen_content_width', 0 );
 
 /**
@@ -289,8 +293,9 @@ function twentyseventeen_fonts_url() {
  *
  * @since Twenty Seventeen 1.0
  *
- * @param array  $urls           URLs to print for resource hints.
- * @param string $relation_type  The relation type the URLs are printed.
+ * @param array $urls URLs to print for resource hints.
+ * @param string $relation_type The relation type the URLs are printed.
+ *
  * @return array $urls           URLs to print for resource hints.
  */
 function twentyseventeen_resource_hints( $urls, $relation_type ) {
@@ -303,6 +308,7 @@ function twentyseventeen_resource_hints( $urls, $relation_type ) {
 
 	return $urls;
 }
+
 add_filter( 'wp_resource_hints', 'twentyseventeen_resource_hints', 10, 2 );
 
 /**
@@ -341,6 +347,7 @@ function twentyseventeen_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
+
 add_action( 'widgets_init', 'twentyseventeen_widgets_init' );
 
 /**
@@ -350,6 +357,7 @@ add_action( 'widgets_init', 'twentyseventeen_widgets_init' );
  * @since Twenty Seventeen 1.0
  *
  * @param string $link Link to single post/page.
+ *
  * @return string 'Continue reading' link prepended with an ellipsis.
  */
 function twentyseventeen_excerpt_more( $link ) {
@@ -362,8 +370,10 @@ function twentyseventeen_excerpt_more( $link ) {
 		/* translators: %s: Name of current post */
 		sprintf( __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentyseventeen' ), get_the_title( get_the_ID() ) )
 	);
+
 	return ' &hellip; ' . $link;
 }
+
 add_filter( 'excerpt_more', 'twentyseventeen_excerpt_more' );
 
 /**
@@ -376,6 +386,7 @@ add_filter( 'excerpt_more', 'twentyseventeen_excerpt_more' );
 function twentyseventeen_javascript_detection() {
 	echo "<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>\n";
 }
+
 add_action( 'wp_head', 'twentyseventeen_javascript_detection', 0 );
 
 /**
@@ -386,6 +397,7 @@ function twentyseventeen_pingback_header() {
 		printf( '<link rel="pingback" href="%s">' . "\n", get_bloginfo( 'pingback_url' ) );
 	}
 }
+
 add_action( 'wp_head', 'twentyseventeen_pingback_header' );
 
 /**
@@ -398,11 +410,14 @@ function twentyseventeen_colors_css_wrap() {
 
 	require_once( get_parent_theme_file_path( '/inc/color-patterns.php' ) );
 	$hue = absint( get_theme_mod( 'colorscheme_hue', 250 ) );
-?>
-	<style type="text/css" id="custom-theme-colors" <?php if ( is_customize_preview() ) { echo 'data-hue="' . $hue . '"'; } ?>>
-		<?php echo twentyseventeen_custom_colors_css(); ?>
-	</style>
+	?>
+    <style type="text/css" id="custom-theme-colors" <?php if ( is_customize_preview() ) {
+		echo 'data-hue="' . $hue . '"';
+	} ?>>
+        <?php echo twentyseventeen_custom_colors_css(); ?>
+    </style>
 <?php }
+
 add_action( 'wp_head', 'twentyseventeen_colors_css_wrap' );
 
 /**
@@ -437,14 +452,17 @@ function twentyseventeen_scripts() {
 	wp_enqueue_script( 'twentyseventeen-skip-link-focus-fix', get_theme_file_uri( '/assets/js/skip-link-focus-fix.js' ), array(), '1.0', true );
 
 	$twentyseventeen_l10n = array(
-		'quote'          => twentyseventeen_get_svg( array( 'icon' => 'quote-right' ) ),
+		'quote' => twentyseventeen_get_svg( array( 'icon' => 'quote-right' ) ),
 	);
 
 	if ( has_nav_menu( 'top' ) ) {
 		wp_enqueue_script( 'twentyseventeen-navigation', get_theme_file_uri( '/assets/js/navigation.js' ), array( 'jquery' ), '1.0', true );
-		$twentyseventeen_l10n['expand']         = __( 'Expand child menu', 'twentyseventeen' );
-		$twentyseventeen_l10n['collapse']       = __( 'Collapse child menu', 'twentyseventeen' );
-		$twentyseventeen_l10n['icon']           = twentyseventeen_get_svg( array( 'icon' => 'angle-down', 'fallback' => true ) );
+		$twentyseventeen_l10n['expand']   = __( 'Expand child menu', 'twentyseventeen' );
+		$twentyseventeen_l10n['collapse'] = __( 'Collapse child menu', 'twentyseventeen' );
+		$twentyseventeen_l10n['icon']     = twentyseventeen_get_svg( array(
+			'icon'     => 'angle-down',
+			'fallback' => true
+		) );
 	}
 
 	wp_enqueue_script( 'twentyseventeen-global', get_theme_file_uri( '/assets/js/global.js' ), array( 'jquery' ), '1.0', true );
@@ -457,6 +475,7 @@ function twentyseventeen_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
+
 add_action( 'wp_enqueue_scripts', 'twentyseventeen_scripts' );
 
 /**
@@ -466,8 +485,9 @@ add_action( 'wp_enqueue_scripts', 'twentyseventeen_scripts' );
  * @since Twenty Seventeen 1.0
  *
  * @param string $sizes A source size value for use in a 'sizes' attribute.
- * @param array  $size  Image size. Accepts an array of width and height
+ * @param array $size Image size. Accepts an array of width and height
  *                      values in pixels (in that order).
+ *
  * @return string A source size value for use in a content image 'sizes' attribute.
  */
 function twentyseventeen_content_image_sizes_attr( $sizes, $size ) {
@@ -479,12 +499,13 @@ function twentyseventeen_content_image_sizes_attr( $sizes, $size ) {
 
 	if ( is_active_sidebar( 'sidebar-1' ) || is_archive() || is_search() || is_home() || is_page() ) {
 		if ( ! ( is_page() && 'one-column' === get_theme_mod( 'page_options' ) ) && 767 <= $width ) {
-			 $sizes = '(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px';
+			$sizes = '(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px';
 		}
 	}
 
 	return $sizes;
 }
+
 add_filter( 'wp_calculate_image_sizes', 'twentyseventeen_content_image_sizes_attr', 10, 2 );
 
 /**
@@ -492,17 +513,20 @@ add_filter( 'wp_calculate_image_sizes', 'twentyseventeen_content_image_sizes_att
  *
  * @since Twenty Seventeen 1.0
  *
- * @param string $html   The HTML image tag markup being filtered.
+ * @param string $html The HTML image tag markup being filtered.
  * @param object $header The custom header object returned by 'get_custom_header()'.
- * @param array  $attr   Array of the attributes for the image tag.
+ * @param array $attr Array of the attributes for the image tag.
+ *
  * @return string The filtered header image HTML.
  */
 function twentyseventeen_header_image_tag( $html, $header, $attr ) {
 	if ( isset( $attr['sizes'] ) ) {
 		$html = str_replace( $attr['sizes'], '100vw', $html );
 	}
+
 	return $html;
 }
+
 add_filter( 'get_header_image_tag', 'twentyseventeen_header_image_tag', 10, 3 );
 
 /**
@@ -511,9 +535,10 @@ add_filter( 'get_header_image_tag', 'twentyseventeen_header_image_tag', 10, 3 );
  *
  * @since Twenty Seventeen 1.0
  *
- * @param array $attr       Attributes for the image markup.
- * @param int   $attachment Image attachment ID.
- * @param array $size       Registered image size or flat array of height and width dimensions.
+ * @param array $attr Attributes for the image markup.
+ * @param int $attachment Image attachment ID.
+ * @param array $size Registered image size or flat array of height and width dimensions.
+ *
  * @return array The filtered attributes for the image markup.
  */
 function twentyseventeen_post_thumbnail_sizes_attr( $attr, $attachment, $size ) {
@@ -525,6 +550,7 @@ function twentyseventeen_post_thumbnail_sizes_attr( $attr, $attachment, $size ) 
 
 	return $attr;
 }
+
 add_filter( 'wp_get_attachment_image_attributes', 'twentyseventeen_post_thumbnail_sizes_attr', 10, 3 );
 
 /**
@@ -539,7 +565,8 @@ add_filter( 'wp_get_attachment_image_attributes', 'twentyseventeen_post_thumbnai
 function twentyseventeen_front_page_template( $template ) {
 	return is_home() ? '' : $template;
 }
-add_filter( 'frontpage_template',  'twentyseventeen_front_page_template' );
+
+add_filter( 'frontpage_template', 'twentyseventeen_front_page_template' );
 
 /**
  * Modifies tag cloud widget arguments to display all tags in the same font size
@@ -548,6 +575,7 @@ add_filter( 'frontpage_template',  'twentyseventeen_front_page_template' );
  * @since Twenty Seventeen 1.4
  *
  * @param array $args Arguments for tag cloud widget.
+ *
  * @return array The filtered arguments for tag cloud widget.
  */
 function twentyseventeen_widget_tag_cloud_args( $args ) {
@@ -558,6 +586,7 @@ function twentyseventeen_widget_tag_cloud_args( $args ) {
 
 	return $args;
 }
+
 add_filter( 'widget_tag_cloud_args', 'twentyseventeen_widget_tag_cloud_args' );
 
 /**
@@ -584,3 +613,62 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
  * SVG icons functions and filters.
  */
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
+
+add_action( 'wp_ajax_file_upload', 'dg_file_upload_handler' );
+function dg_file_upload_handler() {
+	$f = 'yea';
+	//Get the file
+	$_FILES[ $f ] = $_FILES[0];
+
+	$user           = new WP_User( get_current_user_id() );
+	$json['status'] = 'error';
+
+	//Check if the file is available && the user is logged in
+	if ( ! empty( $_FILES[ $f ] ) && $user->ID > 0 ) {
+
+		$json = array();
+		require_once( ABSPATH . 'wp-admin/includes/image.php' );
+		require_once( ABSPATH . 'wp-admin/includes/file.php' );
+		require_once( ABSPATH . 'wp-admin/includes/media.php' );
+
+		//Handle the media upload using WordPress helper functions
+		$attachment_id = media_handle_upload( $f, $user->ID );
+		$json['aid']   = $attachment_id;
+
+		//If error
+		if ( is_wp_error( $attachment_id ) ) {
+			$json['error'] = "Error.";
+		} else {
+			//delete current
+			$profile_image = get_user_meta( $user->ID, 'profile_image', true );
+			if ( $profile_image ) {
+				$profile_image = json_decode( $profile_image );
+				if ( isset( $profile_image->attachment_id ) ) {
+					wp_delete_attachment( $profile_image->attachment_id, true );
+				}
+			}
+
+			//Generate attachment in the media library
+			$attachment_file_path = get_attached_file( $attachment_id );
+			$data                 = wp_generate_attachment_metadata( $attachment_id, $attachment_file_path );
+
+			//Get the attachment entry in media library
+			$image_full_attributes  = wp_get_attachment_image_src( $attachment_id, 'full' );
+			$image_thumb_attributes = wp_get_attachment_image_src( $attachment_id, 'smallthumb' );
+
+			$arr = array(
+				'attachment_id' => $attachment_id,
+				'url'           => $image_full_attributes[0],
+				'thumb'         => $image_thumb_attributes[0]
+			);
+
+			//Save the image in the user metadata
+			update_user_meta( $user->ID, 'profile_image', json_encode( $arr ) );
+
+			$json['src']    = $arr['thumb'];
+			$json['status'] = 'ok';
+		}
+	}
+	//Output the json
+	die( json_encode( $json ) );
+}
