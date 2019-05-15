@@ -10,8 +10,8 @@
 
 
         @media screen and (min-width: 769px) {
-            .envato-purchase-button{
-                display:none;
+            .envato-purchase-button {
+                display: none;
             }
         }
 
@@ -4305,7 +4305,44 @@
             font-weight: 500;
             font-style: normal;
             font-size: 1rem;
-        }</style>
+        }
+
+        ul.list-style li {
+            padding: 0px 0px 25px 36px;
+            /* reset styles (optional): */
+            list-style: none;
+            margin: 0;
+
+        }
+
+        ul.list-style li {
+            background: url(https://doc-04-7c-docs.googleusercontent.com/docs/securesc/chj31eftgkuob7lr8r08nn35v9pue18f/sbokrnqc1d7pj0aoifr961tt1rju8jr8/1557900000000/01588698612832844545/05669134061175302781/1cwlUDGTG0e2LOKTMlmZCYEJFKIjUFOnG?h=14975806830107016286&e=view) no-repeat 0px 3px;
+            background-size: 20px;
+        }
+
+        ul.list-style-car li {
+            padding: 0px 0px 25px 45px;
+            /* reset styles (optional): */
+            list-style: none;
+            margin: 0;
+
+        }
+
+        ul.list-style-car li {
+            background: url(https://doc-10-7c-docs.googleusercontent.com/docs/securesc/chj31eftgkuob7lr8r08nn35v9pue18f/vgrkt692igno3c1gboef12280s1ca327/1557900000000/01588698612832844545/05669134061175302781/1_a9V5OrkW6kVxnkjSTXpzIaxaZkfZ9Q0?h=14975806830107016286&e=view) no-repeat 0px 3px;
+            background-size: 35px;
+        }
+
+        .white-space {
+            white-space: nowrap;
+        }
+        .background-section{
+            background:url(https://doc-0s-7c-docs.googleusercontent.com/docs/securesc/chj31eftgkuob7lr8r08nn35v9pue18f/8d59bmraml7fqbkio49bf6kllhqv5ajf/1557907200000/01588698612832844545/05669134061175302781/1u2xEnV-4BK25bTy0VpuGIMT5R_nMxwuZ?h=14975806830107016286&e=view) no-repeat 0px 0px;
+            background-size: cover;
+            background-position: center;
+            height: 1200px;
+        }
+    </style>
     <style type="text/css" data-type="vc_shortcodes-custom-css">
 
         .vc_custom_1550673106759 {
@@ -4364,35 +4401,25 @@
                     <ul id="menu-layout-03" class="navbar-nav ml-auto">
                         <li id="menu-item-1116"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1116 nav-item nl-simple">
-                            <a class="nav-link" href="#about">About</a></li>
+                            <a class="nav-link" href="#about" title="Gioi Thieu">GIỚI THIỆU</a></li>
                         <li id="menu-item-1117"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1117 nav-item nl-simple">
-                            <a class="nav-link" href="#services-2">Services</a></li>
-                        <li id="menu-item-1118"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1118 nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#what_we_do" data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false">What We Do</a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1119 nav-item nl-simple dropdown-menu-item">
-                                    <a class="dropdown-item" href="#video">Watch Video</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1120 nav-item nl-simple dropdown-menu-item">
-                                    <a class="dropdown-item" href="#how_it_work">How It Works</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1121 nav-item nl-simple dropdown-menu-item">
-                                    <a class="dropdown-item" href="#coustomer">Customers</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1122 nav-item nl-simple dropdown-menu-item">
-                                    <a class="dropdown-item" href="#why_landpick">Why LandPick</a>
-                                </li>
-                            </ul>
-                        </li>
+                            <a class="nav-link" href="#services-2" title="Vi tri">Vị Trí</a></li>
                         <li id="menu-item-1123"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1123 nav-item nl-simple">
-                            <a class="nav-link" href="#pricing">Pricing</a></li>
-                        <li id="menu-item-1124"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1124 nav-item nl-simple">
-                            <a class="nav-link" href="#blog-1">Blog</a></li>
+                            <a class="nav-link" href="#pricing" title="Tiem Nang">TIỀM NĂNG</a></li>
+                        <li id="menu-item-1123"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1123 nav-item nl-simple">
+                            <a class="nav-link" href="#pricing" title="Tien Ich">TIỆN ÍCH</a></li>
+                        <li id="menu-item-1123"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1123 nav-item nl-simple">
+                            <a class="nav-link" href="#pricing" title="Quy Hoach">QUY HOẠCH</a></li>
+                        <li id="menu-item-1123"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1123 nav-item nl-simple">
+                            <a class="nav-link" title="Uu Diem" href="#pricing">ƯU ĐIỂM</a></li>
                     </ul>
-                    <span><a target="_blank" href="#freewhite" title="Try For Free"
-                             class="btn btn-tra-white btn-type-light"><span>Try For Free</span></a></span>
+                    <span><a target="_blank" href="#freewhite" title="Dat Suat Ngay"
+                             class="btn btn-tra-white btn-type-light"><span>ĐẶT SUẤT NGAY</span></a></span>
 
 
                 </div>    <!-- End Navigation Menu -->
@@ -4419,7 +4446,7 @@
                                              style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
                                             <div class="vc_single_image-wrapper  "><img
                                                         class="vc_single_image-img img-fluid"
-                                                        src="http://jthemes.org/wp/landpick/demos/wp-content/themes/landpick/images/hero-3-img.png"
+                                                        src="https://doc-0g-7c-docs.googleusercontent.com/docs/securesc/chj31eftgkuob7lr8r08nn35v9pue18f/jsmd524ar70ffgpt0aj44anuvufkla35/1557885600000/01588698612832844545/05669134061175302781/1ixqU7XXBZSdSXfRvkHjuL2byOekuQ3C6?h=14975806830107016286&e=view"
                                                         alt="External image"></div>
                                         </div>
                                     </div>
@@ -4439,12 +4466,12 @@
                                             <h3 class="Default h3-lg none  wow perch-fadeInUp fadeInUp"
                                                 data-wow-delay="300ms" data-wow-duration="1000ms"
                                                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                                Need professional help with your project?</h3>
+                                                Dự Án Đất Nền Khu Đô Thị
+                                                Sinh Thái Nhơn Hội</h3>
                                             <p class="p-md  wow perch-fadeInUp fadeInUp" data-wow-delay="500ms"
                                                data-wow-duration="1000ms"
                                                style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: fadeInUp;">
-                                                Semper lacus cursus porta, feugiat primis luctus ultrice tellus potenti
-                                                neque dolor in magna suscipit magna, mauris rhoncus ipsum</p>
+                                                Tại thiên đường du lịch mới Bình Định</p>
 
 
                                         </div>
@@ -4458,7 +4485,7 @@
                                                       id="es_subscription_form_perch_5cd2864db6493">
                                                     <div class="input-group"><input
                                                                 class="es_required_field form-control" type="email"
-                                                                name="email" placeholder="Your email address*"
+                                                                name="email" placeholder="Nhập số điện thoại"
                                                                 required=""> <input type="hidden" name="lists[]"
                                                                                     value="0"> <input type="hidden"
                                                                                                       name="form_id"
@@ -4479,7 +4506,8 @@
                                                                                               name="es_txt_button"
                                                                                               target="_self"
                                                                                               title="Get Started"
-                                                                                              class="btn btn-blue es_subscription_form_submit es_submit_button btn-lg btn-type-dark"><span>Get Started</span></button></span>
+                                                                                              class="btn btn-blue es_subscription_form_submit es_submit_button btn-lg btn-type-dark">
+                                                                <span>ĐẶT SUẤT NGAY</span></button></span>
                                                     </div>
                                                     <span class="es_spinner_image" id="spinner-image"><svg
                                                                 class="svg-inline--fa fa-spinner fa-w-16 fa-spin fa-lg"
@@ -4487,19 +4515,12 @@
                                                                 role="img" xmlns="http://www.w3.org/2000/svg"
                                                                 viewBox="0 0 512 512" data-fa-i2svg=""><path
                                                                     fill="currentColor"
-                                                                    d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z"></path></svg>
-                                                        <!-- <i class="fa fa-spinner fa-spin fa-lg"></i> --></span>
+                                                                    d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z"></path></svg><span>
 
                                                 </form>
 
                                                 <span class="es_subscription_message success"
                                                       id="es_subscription_message_perch_5cd2864db6493"></span>
-                                            </div>
-
-
-                                            <div class="hero-links">
-                                                <span>No credit card required</span><span>* <a href="#">See FAQ</a> for more details</span><span><a
-                                                            href="#">Privacy Policy</a></span>
                                             </div>
 
 
@@ -4513,133 +4534,6 @@
             </div>
         </section>
         <div class="vc_row-full-width vc_clearfix"></div>
-        <section id="services-3" data-vc-full-width="false" data-vc-full-width-init="false"
-                 data-vc-parallax-image="http://jthemes.org/wp/landpick/demos/wp-content/themes/landpick/images/banner-1.jpg"
-                 data-opacity="1" data-size="cover" data-width="100%" data-position="cover" data-repeat="cover"
-                 data-attachment="inherit" class="vc_section">
-            <div class="bg-white wide-60      ">
-                <div>
-                    <div class="container">
-                        <div class="vc_row wpb_row vc_row-fluid bg-tra bg-inherit vc_row-o-content-middle vc_row-flex">
-                            <div class="wpb_column vc_column_container vc_col-sm-12 bg-tra">
-                                <div class="vc_column-inner">
-                                    <div class="wpb_wrapper ">
-                                        <div class="section-title  wow perch-fadeInUp fadeInUp text-center"
-                                             data-wow-delay="300ms" data-wow-duration="1000ms"
-                                             style="visibility: hidden; animation-duration: 1000ms; animation-delay: 300ms; animation-name: none;">
-                                            <h3 class="Default h3-md none">Everyone Wants To Be Unique</h3>
-                                            <p class="Default p-md none">Aliquam a augue suscipit, luctus neque purus
-                                                ipsum neque dolor primis libero tempus, tempor posuere ligula varius</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="vc_row wpb_row vc_row-fluid bg-tra bg-inherit vc_row-o-content-middle vc_row-flex mul-cols">
-                            <div class="wpb_column vc_column_container vc_col-sm-6 bg-tra">
-                                <div class="vc_column-inner">
-                                    <div class="wpb_wrapper ">
-                                        <div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex mul-cols">
-                                            <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper ">
-                                                        <div class="sbox  wow perch-fadeInUp fadeInUp sbox-3"
-                                                             data-wow-delay="300ms" data-wow-duration="1000ms"
-                                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                                            <div class="fbox lightblue-color-box">
-                                                                <div class="lightblue-color-icon b-icon box-icon-md">
-                                                                    <span class="flaticon-055-adventure lightblue-color"></span>
-                                                                </div>
-                                                                <div class="sbox-3-txt">
-                                                                    <h5 class="h5-sm">Quick Access</h5>
-                                                                    <p class="grey-color">Semper lacus cursus porta,
-                                                                        feugiat primis ultrice in ligula risus auctor
-                                                                        tempus feugiat dolor felis</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="sbox  wow perch-fadeInUp fadeInUp sbox-3"
-                                                             data-wow-delay="300ms" data-wow-duration="1000ms"
-                                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                                            <div class="fbox lightblue-color-box">
-                                                                <div class="lightblue-color-icon b-icon box-icon-md">
-                                                                    <span class="flaticon-045-clipboard lightblue-color"></span>
-                                                                </div>
-                                                                <div class="sbox-3-txt">
-                                                                    <h5 class="h5-sm">Clear Report</h5>
-                                                                    <p class="grey-color">Porta semper lacus cursus,
-                                                                        feugiat primis ultrice in ligula risus auctor
-                                                                        tempus feugiat dolor felis</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wpb_column vc_column_container vc_col-sm-6 last-column">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper ">
-                                                        <div class="sbox  wow perch-fadeInUp fadeInUp sbox-3"
-                                                             data-wow-delay="300ms" data-wow-duration="1000ms"
-                                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                                            <div class="fbox lightblue-color-box">
-                                                                <div class="lightblue-color-icon b-icon box-icon-md">
-                                                                    <span class="flaticon-095-email lightblue-color"></span>
-                                                                </div>
-                                                                <div class="sbox-3-txt">
-                                                                    <h5 class="h5-sm">Mailer Engine</h5>
-                                                                    <p class="grey-color">Feugiat primis ultrice semper
-                                                                        lacus cursus porta, in ligula risus auctor
-                                                                        tempus feugiat dolor felis</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="sbox  wow perch-fadeInUp fadeInUp sbox-3"
-                                                             data-wow-delay="300ms" data-wow-duration="1000ms"
-                                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                                            <div class="fbox lightblue-color-box">
-                                                                <div class="lightblue-color-icon b-icon box-icon-md">
-                                                                    <span class="flaticon-085-lock lightblue-color"></span>
-                                                                </div>
-                                                                <div class="sbox-3-txt">
-                                                                    <h5 class="h5-sm">Concrete Security</h5>
-                                                                    <p class="grey-color">Semper lacus cursus porta,
-                                                                        feugiat primis ultrice in ligula risus auctor
-                                                                        tempus feugiat dolor felis</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="wpb_column vc_column_container vc_col-sm-1 bg-tra">
-                                <div class="vc_column-inner">
-                                    <div class="wpb_wrapper "></div>
-                                </div>
-                            </div>
-                            <div class="wpb_column vc_column_container vc_col-sm-5 bg-tra last-column">
-                                <div class="vc_column-inner">
-                                    <div class="wpb_wrapper ">
-                                        <div class="services-img  wow perch-fadeInRight fadeInRight"
-                                             data-wow-delay="300ms" data-wow-duration="1000ms"
-                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInRight;">
-                                            <div class="vc_single_image-wrapper  "><img
-                                                        class="vc_single_image-img img-fluid"
-                                                        src="http://jthemes.org/wp/landpick/demos/wp-content/themes/landpick/images/image-01.png"
-                                                        alt="External image"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <div class="vc_row-full-width vc_clearfix"></div>
         <section id="about" data-vc-full-width="false" data-vc-full-width-init="false"
                  data-vc-parallax-image="http://jthemes.org/wp/landpick/demos/wp-content/themes/landpick/images/banner-1.jpg"
@@ -4658,7 +4552,7 @@
                                              style="visibility: hidden; animation-duration: 1000ms; animation-delay: 300ms; animation-name: none;">
                                             <div class="vc_single_image-wrapper  "><img
                                                         class="vc_single_image-img img-fluid"
-                                                        src="http://jthemes.org/wp/landpick/demos/wp-content/themes/landpick/images/image-11.jpg"
+                                                        src="https://doc-0c-7c-docs.googleusercontent.com/docs/securesc/chj31eftgkuob7lr8r08nn35v9pue18f/mohqu4tndbnsohfehknmlu74ut61aobm/1557885600000/01588698612832844545/05669134061175302781/1NqqI6UNJrMUfmWZxhu6_Pnu9ym0X_9Qt?h=14975806830107016286&e=view"
                                                         alt="External image"></div>
                                         </div>
                                     </div>
@@ -4673,20 +4567,26 @@
                                             <h3 class="Default h3-xs none  wow perch-fadeInUp fadeInUp"
                                                 data-wow-delay="300ms" data-wow-duration="1000ms"
                                                 style="visibility: hidden; animation-duration: 1000ms; animation-delay: 300ms; animation-name: none;">
-                                                With knowledge, skills and hard work</h3>
+                                                Bình Định Bứt Phá Về Phát Triển
+                                                Du Lịch Biển</h3>
                                             <p class="Default none  wow perch-fadeInUp fadeInUp" data-wow-delay="400ms"
                                                data-wow-duration="1000ms"
                                                style="visibility: hidden; animation-duration: 1000ms; animation-delay: 400ms; animation-name: none;">
-                                                An enim nullam tempor sapien gravida donec enim ipsum pretium porta
-                                                justo integer at odio velna vitae auctor integer congue magna at purus
-                                                pretium ligula rutrum luctus risus ultrice enim gravida</p>
+                                                Bất động sản biển Việt Nam trong những năm vừa qua có mức tăng trưởng
+                                                vượt bậc nhờ nhận được nhiều nguồn vốn đầu tư trực tiếp từ nước ngoài.
+                                                Lý do vì Mặt bằng đất ven biển Việt Nam vẫn còn khá thấp so với các nước
+                                                trong khu vực Asian.
+
+                                            </p>
                                             <div class="hero-content  wow perch-fadeInUp fadeInUp"
                                                  data-wow-delay="500ms" data-wow-duration="1000ms"
                                                  style="visibility: hidden; animation-duration: 1000ms; animation-delay: 500ms; animation-name: none;">
                                                 <p></p>
-                                                <p>Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis
-                                                    libero tempus, tempor posuere ligula varius augue luctus donec
-                                                    sapien posuere ligula varius impedit enim tempor sapien</p>
+                                                <p>
+                                                    Vì vậy, cơ hội đầu tư BĐS Biển, đặc biệt là đất nền sẽ có sự bức phá
+                                                    mạnh trong thời gian sắp tới khi Việt Nam đón nhận nhiều cơ hội và
+                                                    mở rộng các cửa ngõ giao thương du lịch quốc tế.
+                                                </p>
                                                 <p>
                                                 </p></div>
 
@@ -4711,7 +4611,7 @@
                                              style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
                                             <div class="vc_single_image-wrapper  "><img
                                                         class="vc_single_image-img img-fluid"
-                                                        src="http://jthemes.org/wp/landpick/demos/wp-content/themes/landpick/images/image-13.jpg"
+                                                        src="https://doc-00-7c-docs.googleusercontent.com/docs/securesc/chj31eftgkuob7lr8r08nn35v9pue18f/sl4g66lnqd4hot475fn6f4lrcf166g00/1557885600000/01588698612832844545/05669134061175302781/1donQajrL__S9RlAf91tiyXWZQmeldhFX?h=14975806830107016286&e=view"
                                                         alt="External image"></div>
                                         </div>
                                         <div class="content-txt">
@@ -4720,23 +4620,25 @@
                                             <h3 class="Default h3-xs none  wow perch-fadeInUp fadeInUp"
                                                 data-wow-delay="300ms" data-wow-duration="1000ms"
                                                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                                Start your project with LandPick</h3>
+                                                Tiện Ích Di Chuyển Đường Hàng Không</h3>
                                             <p class="Default none  wow perch-fadeInUp fadeInUp" data-wow-delay="400ms"
                                                data-wow-duration="1000ms"
                                                style="visibility: visible; animation-duration: 1000ms; animation-delay: 400ms; animation-name: fadeInUp;">
-                                                Semper lacus cursus porta, feugiat primis in ultrice ligula tempus
-                                                auctor ipsum and mauris lectus enim ipsum enim gravida purus pretium
-                                                ligula </p>
+                                                Sân bay Phù Cát đã được cải tạo, nâng cấp và đã bắt đầu đón những lượt
+                                                khách quốc tế đầu tiên, mở đầu cho sự phát triển du lịch, bất động sản
+                                                nghỉ dưỡng tại Quy Nhơn.
+
+                                            </p>
                                             <div class="hero-content  wow perch-fadeInUp fadeInUp"
                                                  data-wow-delay="500ms" data-wow-duration="1000ms"
                                                  style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: fadeInUp;">
                                                 <p></p>
-                                                <p>An enim nullam tempor sapien gravida donec enim ipsum pretium porta
-                                                    justo integer at odio velna vitae auctor integer congue magna at
-                                                    purus pretium ligula rutrum luctus risus ultrice enim gravida.
-                                                    Maecenas laoreet augue egestas laoreet augue egestas, congue gestas
-                                                    volutpat posuere cubilia congue ipsum mauris lectus laoreet gestas
-                                                    neque volutpat and gestas posuere</p>
+                                                <p>
+                                                    Bên cạnh đó, hãng hàng không Bamboo Airways của Tập đoàn FLC đã đi
+                                                    vào hoạt động từ cuối năm 2018, tính đến nay đã phục vụ hàng nghìn
+                                                    lượt khách đến các thành phố trong cả nước, trong đó có Quy Nhơn -
+                                                    Bình Định.
+                                                </p>
                                                 <p>
                                                 </p></div>
 
@@ -4770,10 +4672,9 @@
                                         <div class="section-title  wow perch-fadeInUp fadeInUp text-center"
                                              data-wow-delay="300ms" data-wow-duration="1000ms"
                                              style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                            <h3 class="Default h3-md none">What Makes LandPick Different</h3>
-                                            <p class="Default p-md none">Aliquam a augue suscipit, luctus neque purus
-                                                ipsum neque dolor primis libero tempus, tempor posuere ligula varius
-                                                ullam libero</p>
+                                            <h3 class="Default h3-md none">Cơ Sở Hạ Tầng Ngày Càng Hoàn Thiện</h3>
+                                            <p class="Default p-md none">Địa điểm du lịch tại Bình Định
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -4790,27 +4691,17 @@
                                                 <div class="grey-color-icon b-icon box-icon-md"><span
                                                             class="flaticon-074-web grey-color"></span></div>
                                                 <div class="sbox-2-txt">
-                                                    <h5 class="h5-sm">Web Design Interface</h5>
-                                                    <p class="grey-color">Porta semper lacus cursus, feugiat primis
-                                                        ultrice in ligula risus auctor tempus feugiat dolor impedit
-                                                        felis magna dolor vitae</p>
+                                                    <h5 class="h5-sm">Tăng Tần Suất Chuyến Bay</h5>
+                                                    <p class="grey-color">6 chuyến bay từ Hà Nội đến Quy Nhơn (từ 3
+                                                        chuyến)
+                                                    </p>
+                                                    <p class="grey-color">
+                                                        8 chuyến bay từ TP.HCM đến Quy Nhơn (từ 3 chuyến)
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="sbox  wow perch-fadeInUp fadeInUp sbox-2" data-wow-delay="300ms"
-                                             data-wow-duration="1000ms"
-                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                            <div class="fbox grey-color-box">
-                                                <div class="grey-color-icon b-icon box-icon-md"><span
-                                                            class="flaticon-078-tag grey-color"></span></div>
-                                                <div class="sbox-2-txt">
-                                                    <h5 class="h5-sm">Brand Design Identity</h5>
-                                                    <p class="grey-color">Porta semper lacus cursus, feugiat primis
-                                                        ultrice in ligula risus auctor tempus feugiat dolor impedit
-                                                        felis magna dolor vitae</p>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -4824,27 +4715,16 @@
                                                 <div class="grey-color-icon b-icon box-icon-md"><span
                                                             class="flaticon-016-game grey-color"></span></div>
                                                 <div class="sbox-2-txt">
-                                                    <h5 class="h5-sm">Web Development</h5>
-                                                    <p class="grey-color">Porta semper lacus cursus, feugiat primis
-                                                        ultrice in ligula risus auctor tempus feugiat dolor impedit
-                                                        felis magna dolor vitae</p>
+                                                    <h5 class="h5-sm">Quốc Lộ 1 Và 19</h5>
+                                                    <p class="grey-color">Mở rộng QL1 với tổng chiều dài 120km qua địa
+                                                        bàn tỉnh.
+                                                        <br>Dự án QL19 (Cảng Quy Nhơn đến điểm nối QL1) đang được đẩy
+                                                        nhanh tiến độ, và đưa vào sử dụng cuối năm 2019
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="sbox  wow perch-fadeInUp fadeInUp sbox-2" data-wow-delay="300ms"
-                                             data-wow-duration="1000ms"
-                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                            <div class="fbox grey-color-box">
-                                                <div class="grey-color-icon b-icon box-icon-md"><span
-                                                            class="flaticon-024-search grey-color"></span></div>
-                                                <div class="sbox-2-txt">
-                                                    <h5 class="h5-sm">SEO &amp; SMM Services</h5>
-                                                    <p class="grey-color">Porta semper lacus cursus, feugiat primis
-                                                        ultrice in ligula risus auctor tempus feugiat dolor impedit
-                                                        felis magna dolor vitae</p>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -4858,25 +4738,652 @@
                                                 <div class="grey-color-icon b-icon box-icon-md"><span
                                                             class="flaticon-098-analysis grey-color"></span></div>
                                                 <div class="sbox-2-txt">
-                                                    <h5 class="h5-sm">Digital Marketing</h5>
-                                                    <p class="grey-color">Porta semper lacus cursus, feugiat primis
-                                                        ultrice in ligula risus auctor tempus feugiat dolor impedit
-                                                        felis magna dolor vitae</p>
+                                                    <h5 class="h5-sm">Cao Tốc Bình Định-Quảng Ngãi</h5>
+                                                    <p class="grey-color">
+                                                        Chiều dài: 170km <br>
+                                                        Quy mô: 4 làn xe<br>
+                                                        Khởi công: 2017<br>
+                                                        Hoàn thành: 2021
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="sbox  wow perch-fadeInUp fadeInUp sbox-2" data-wow-delay="300ms"
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="vc_row-full-width vc_clearfix"></div>
+        <section id="about" data-vc-full-width="false" data-vc-full-width-init="false"
+                 data-vc-parallax-image="http://jthemes.org/wp/landpick/demos/wp-content/themes/landpick/images/banner-1.jpg"
+                 data-opacity="1" data-size="cover" data-width="100%" data-position="cover" data-repeat="cover"
+                 data-attachment="inherit" class="vc_section">
+            <div id="content-3" class="bg-lightgrey wide-60 content-section      ">
+                <div>
+                    <div class="container">
+                        <div id="c3-top"
+                             class="vc_row wpb_row vc_row-fluid pb-50 bg-tra bg-inherit vc_row-o-content-middle vc_row-flex mul-cols">
+                            <div class="wpb_column vc_column_container vc_col-sm-6 bg-tra">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper ">
+                                        <div class="content-txt content-left">
+
+
+                                            <h3 class="Default h3-xs none  wow perch-fadeInUp fadeInUp"
+                                                data-wow-delay="300ms" data-wow-duration="1000ms"
+                                                style="visibility: hidden; animation-duration: 1000ms; animation-delay: 300ms; animation-name: none;">
+                                                Khu Đô Thị Sinh Thái Nhơn Hội</h3>
+                                            <p class="Default none  wow perch-fadeInUp fadeInUp" data-wow-delay="400ms"
+                                               data-wow-duration="1000ms"
+                                               style="visibility: hidden; animation-duration: 1000ms; animation-delay: 400ms; animation-name: none;">
+                                                Thiên nhiên dường như rất ưu ái cho Quy Nhơn khi ban tặng không chỉ
+                                                những bãi biển đẹp, thơ mộng với cát trắng nắng vàng mà còn là loạt kì
+                                                quan hùng vĩ tạo nên bức tranh sơn thủy kì diệu níu giữ chân du khách
+                                                trong và ngoài nước. Và Khu đô thị sinh thái Nhơn Hội đã trở thành một
+                                                trong những dự án tiềm năng tại đây.
+
+                                            </p>
+                                            <div class="hero-content  wow perch-fadeInUp fadeInUp"
+                                                 data-wow-delay="500ms" data-wow-duration="1000ms"
+                                                 style="visibility: hidden; animation-duration: 1000ms; animation-delay: 500ms; animation-name: none;">
+                                                <p></p>
+                                                <ul class="list-style">
+                                                    <li>
+                                                        
+                                                        <span>
+                                                            Tên dự án: <strong>KHU ĐÔ THỊ DU LỊCH SINH THÁI NHƠN HỘI</strong>
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        
+                                                        <span>
+                                                            <strong>Pháp Lý:</strong> Sổ đỏ sở hữu lâu dài
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        
+                                                        <span>
+                                                            <strong>Vị Trí:</strong> NHƠN LÝ, NHƠN HỘI LIỀN KỀ FLC BEACH & GOLF RESORT QUY NHƠN
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        
+                                                        <span>
+                                                           <strong>Mô Tả Chi Tiết:</strong> Sở hữu tiền đại lộ dài 300m, bờ biển của dự án dài hơn 300m
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        
+                                                        <span>
+                                                            <strong>Tổng Diện Tích:</strong> 161.756 m2
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        
+                                                        <span>
+                                                           <strong>Sản Phẩm:</strong> Nhà phố, nhà ở kết hợp thương mại
+                                                        </span>
+                                                    </li>
+                                                    <li>
+
+                                                        <span>
+                                                             <strong>Diện Tích Đa Dạng:</strong> Nhà phố: 5x18m,shophouse 5x22m
+                                                        </span>
+                                                    </li>
+
+                                                </ul>
+                                                <p>
+
+
+                                                </p>
+                                                <p>
+                                                </p></div>
+
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wpb_column vc_column_container vc_col-sm-6 bg-tra last-column">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper ">
+                                        <div class="content-img  wow perch-fadeInUp fadeInUp" data-wow-delay="300ms"
+                                             data-wow-duration="1000ms"
+                                             style="visibility: hidden; animation-duration: 1000ms; animation-delay: 300ms; animation-name: none;">
+                                            <div class="vc_single_image-wrapper  "><img
+                                                        class="vc_single_image-img img-fluid"
+                                                        src="https://doc-08-7c-docs.googleusercontent.com/docs/securesc/chj31eftgkuob7lr8r08nn35v9pue18f/ho8euaaq61i4166t1adnatlqg890eho4/1557892800000/01588698612832844545/05669134061175302781/16-2yW7vQJt_sgLXC79yRj4MYXpd9qKSv?h=14975806830107016286&e=view"
+                                                        alt="External image"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="c3-bottom"
+                             class="vc_row wpb_row vc_row-fluid bg-tra bg-inherit vc_row-o-content-middle vc_row-flex mul-cols">
+                            <div class="wpb_column vc_column_container vc_col-sm-2 bg-tra">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper "></div>
+                                </div>
+                            </div>
+                            <div class="wpb_column vc_column_container vc_col-sm-8 bg-tra">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper ">
+                                        <div class="content-img  wow perch-fadeInUp fadeInUp text-center"
+                                             data-wow-delay="300ms" data-wow-duration="1000ms"
+                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                                            <div class="vc_single_image-wrapper  "><img
+                                                        class="vc_single_image-img img-fluid"
+                                                        src="https://doc-04-7c-docs.googleusercontent.com/docs/securesc/chj31eftgkuob7lr8r08nn35v9pue18f/j88eagqi1nqg2cmdqa1dga40ciembrfk/1557892800000/01588698612832844545/05669134061175302781/1248RIfIvO-cusTXsqYubfUkOlgA_ynIf?h=14975806830107016286&e=view"
+                                                        alt="External image"></div>
+                                        </div>
+                                        <div class="content-txt">
+
+
+                                            <h3 class="Default h3-xs none  wow perch-fadeInUp fadeInUp"
+                                                data-wow-delay="300ms" data-wow-duration="1000ms"
+                                                style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                                                Vị Trí Độc Đáo</h3>
+                                            <p class="Default none  wow perch-fadeInUp fadeInUp" data-wow-delay="400ms"
+                                               data-wow-duration="1000ms"
+                                               style="visibility: visible; animation-duration: 1000ms; animation-delay: 400ms; animation-name: fadeInUp;">
+                                                Mặt tiền đại lộ 19B, đường bờ biển trải dài và kết nối các khu du lịch
+                                                tiềm năng
+                                                Ngay khu vực trung tâm nên việc di chuyển đến những địa điểm lân cận vô
+                                                cùng thuận tiện, dễ dàng:
+                                            </p>
+                                            <div class="hero-content  wow perch-fadeInUp fadeInUp"
+                                                 data-wow-delay="500ms" data-wow-duration="1000ms"
+                                                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: fadeInUp;">
+                                                <p>
+                                                <ul class="list-style-car">
+                                                    <li>
+                                                        <span>5 Phút đến sở thú Safari FLC</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>10 Phút đến khu du lịch Eo Gió, Kỳ Co.</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>20 Phút đến sân bay Q Cát</span>
+                                                    </li>
+                                                </ul>
+                                                </p>
+
+
+                                                <p>
+                                                </p></div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wpb_column vc_column_container vc_col-sm-2 bg-tra last-column">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper "></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="vc_row-full-width vc_clearfix"></div>
+        <section id="services-3" data-vc-full-width="false" data-vc-full-width-init="false"
+                 data-vc-parallax-image="http://jthemes.org/wp/landpick/demos/wp-content/themes/landpick/images/banner-1.jpg"
+                 data-opacity="1" data-size="cover" data-width="100%" data-position="cover" data-repeat="cover"
+                 data-attachment="inherit" class="vc_section">
+            <div class="bg-white wide-60      ">
+                <div>
+                    <div class="container">
+                        <div class="vc_row wpb_row vc_row-fluid bg-tra bg-inherit vc_row-o-content-middle vc_row-flex">
+                            <div class="wpb_column vc_column_container vc_col-sm-12 bg-tra">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper ">
+                                        <div class="section-title  wow perch-fadeInUp fadeInUp text-center"
+                                             data-wow-delay="300ms" data-wow-duration="1000ms"
+                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms;">
+                                            <h3 class="Default h3-md none">Những Điểm Đặc Biệt Của Dự Án<br>
+                                                KDC Nhơn Hội - Quy Nhơn</h3><!--
+                                            <p class="Default p-md none">Aliquam a augue suscipit, luctus neque purus
+                                                ipsum neque dolor primis libero tempus, tempor posuere ligula varius</p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vc_row wpb_row vc_row-fluid bg-tra bg-inherit vc_row-o-content-middle vc_row-flex mul-cols">
+                            <div class="wpb_column vc_column_container vc_col-sm-5 bg-tra">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper ">
+                                        <div class="services-img  wow perch-fadeInRight fadeInRight"
+                                             data-wow-delay="300ms" data-wow-duration="1000ms"
+                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInLeft;">
+                                            <div class="vc_single_image-wrapper  "><img
+                                                        class="vc_single_image-img img-fluid"
+                                                        src="https://doc-04-7c-docs.googleusercontent.com/docs/securesc/chj31eftgkuob7lr8r08nn35v9pue18f/8pqk9a5jlv3nvnsicel9gshk11akinls/1557907200000/01588698612832844545/05669134061175302781/1saebHBg7t-7mD8F4X7AX51eqAZJMwLx8?h=14975806830107016286&e=view"
+                                                        alt="External image"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wpb_column vc_column_container vc_col-sm-1 bg-tra">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper "></div>
+                                </div>
+                            </div>
+
+                            <div class="wpb_column vc_column_container vc_col-sm-6 bg-tra last-column">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper ">
+                                        <div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex mul-cols">
+                                            <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper ">
+                                                        <div class="sbox  wow perch-fadeInUp fadeInUp sbox-3"
+                                                             data-wow-delay="300ms" data-wow-duration="1000ms"
+                                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                                                            <div class="fbox lightblue-color-box">
+                                                                <div class="lightblue-color-icon b-icon box-icon-md">
+                                                                    <span class="flaticon-055-adventure lightblue-color"></span>
+                                                                </div>
+                                                                <div class="sbox-3-txt">
+                                                                    <h5 class="h5-sm white-space">Khu Đô Thị Mới</h5>
+                                                                    <p class="grey-color">Semper lacus cursus porta,
+                                                                        feugiat primis ultrice in ligula risus auctor
+                                                                        tempus feugiat dolor felis</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sbox  wow perch-fadeInUp fadeInUp sbox-3"
+                                                             data-wow-delay="300ms" data-wow-duration="1000ms"
+                                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                                                            <div class="fbox lightblue-color-box">
+                                                                <div class="lightblue-color-icon b-icon box-icon-md">
+                                                                    <span class="flaticon-045-clipboard lightblue-color"></span>
+                                                                </div>
+                                                                <div class="sbox-3-txt">
+                                                                    <h5 class="h5-sm white-space">Thuộc Vùng Lõi Du
+                                                                        Lịch</h5>
+                                                                    <p class="grey-color">Porta semper lacus cursus,
+                                                                        feugiat primis ultrice in ligula risus auctor
+                                                                        tempus feugiat dolor felis</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wpb_column vc_column_container vc_col-sm-6 last-column">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper ">
+                                                        <div class="sbox  wow perch-fadeInUp fadeInUp sbox-3"
+                                                             data-wow-delay="300ms" data-wow-duration="1000ms"
+                                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                                                            <div class="fbox lightblue-color-box">
+                                                                <div class="lightblue-color-icon b-icon box-icon-md">
+                                                                    <span class="flaticon-095-email lightblue-color"></span>
+                                                                </div>
+                                                                <div class="sbox-3-txt">
+                                                                    <h5 class="h5-sm white-space">Mặt Tiền Đại Lộ, Hướng
+                                                                        Biển</h5>
+                                                                    <p class="grey-color">Feugiat primis ultrice semper
+                                                                        lacus cursus porta, in ligula risus auctor
+                                                                        tempus feugiat dolor felis</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sbox  wow perch-fadeInUp fadeInUp sbox-3"
+                                                             data-wow-delay="300ms" data-wow-duration="1000ms"
+                                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                                                            <div class="fbox lightblue-color-box">
+                                                                <div class="lightblue-color-icon b-icon box-icon-md">
+                                                                    <span class="flaticon-085-lock lightblue-color"></span>
+                                                                </div>
+                                                                <div class="sbox-3-txt">
+                                                                    <h5 class="h5-sm white-space">Pháp Lý Sổ Đỏ Sau 3
+                                                                        Tháng</h5>
+                                                                    <p class="grey-color">Semper lacus cursus porta,
+                                                                        feugiat primis ultrice in ligula risus auctor
+                                                                        tempus feugiat dolor felis</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pricing" data-vc-full-width="false" data-vc-full-width-init="false"
+                 data-vc-parallax-image="http://jthemes.org/wp/landpick/demos/wp-content/themes/landpick/images/banner-1.jpg"
+                 data-opacity="1" data-size="cover" data-width="100%" data-position="cover" data-repeat="cover"
+                 data-attachment="inherit" class="vc_section ">
+            <div id="pricing-1" class="bg-lightgrey wide-60 pricing-section  background-section    ">
+                <div>
+                    <div class="container">
+                        <div class="vc_row wpb_row vc_row-fluid bg-tra bg-inherit vc_row-o-content-middle vc_row-flex">
+                            <div class="wpb_column vc_column_container vc_col-sm-12 bg-tra">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper ">
+                                        <div class="section-title  wow perch-fadeInUp fadeInUp text-center"
+                                             data-wow-delay="300ms" data-wow-duration="1000ms"
+                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                                            <h3 class="Default h3-md none">Tiện Ích Vượt Trội</h3>
+                                            <p class="Default p-md none">Khu Đô Thị Du Lịch Nhơn Hội với đinh hướng phát
+                                                triển sẽ trở thành khu phức hợp cao cấp tại thị xã Nhơn Lý hội tụđầy đủ
+                                                tiện ích đáp ứng nhu cầu sinh hoạt đời sống và du lịch mang đến giá trị
+                                                nghỉ dưỡng cho cộng đồng dân cư sinh sống tại đây. Các tiện ích tiêu
+                                                biểu như:
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vc_row wpb_row vc_row-fluid pricing-row bg-tra bg-inherit vc_row-o-content-middle vc_row-flex mul-cols">
+                            <div class="wpb_column vc_column_container vc_col-sm-12 bg-tra">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper ">
+                                        <div class="section-title  wow perch-fadeInUp fadeInUp text-left"
+                                             data-wow-delay="300ms" data-wow-duration="1000ms"
+                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+
+
+                                            
+                                            <ul class="list-style">
+                                                <li>
+
+                                                        <span>
+                                                            <strong>Khu phố tây – nhà hàng thương mại</strong> với nhiều cửa hàng, siêu thị đáp ứng mọi nhu cầu về mua sắm, giao thương không chỉ cư dân Khu đô thị Du Lịch Nhơn Hội mà toàn cư dân trong vùng.
+
+                                                        </span>
+                                                </li>
+                                                <li>
+
+                                                        <span>
+                                                            <strong>Khu thể dục thể thao</strong> nâng cao chất lượng cuộc sống tăng cường sức khoẻ cho dân cư.
+
+                                                        </span>
+                                                </li>
+                                                <li>
+
+                                                        <span>
+                                                            <strong>Trường học</strong> sẽ được đặt ngay trung tâm khuôn viên dự án, được đầu tư xây dựng hiện đại với các cấp từ mẫu giáo đến cấp 2 giúp các bậc phụ huynh yên tâm về chất lượng giảng dạy cũng như tương lai phát triển toàn diện của con em mình.
+                                                        </span>
+                                                </li>
+                                                <li>
+
+                                                        <span>
+                                                            Đặc biệt, dự án sở hữu <strong>hạ tầng đồng bộ với mật độ cây xanh cao</strong>, các mảng xanh được phân bổ hợp lý sẽ tạo không khí trong lành, môi trường sống thanh bình lý tưởng giữa lòng đô thị đang phát triển.
+                                                            </span>
+                                                </li>
+                                                <li>
+
+                                                        <span>
+                                                           <strong>Hệ thống an ninh</strong> toàn dự án rất nghiêm ngặt, gồm các chốt ra vào khu dân cư, camera giám sát, đội ngũ bảo vệ chuyên nghiệp….Và còn rất nhiều các tiện ích, dịch vụ khác nữa được tích hợp tại đây.
+                                                        </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="vc_row-full-width vc_clearfix"></div>
+
+        <section id="blog-1" data-vc-full-width="false" data-vc-full-width-init="false"
+                 data-vc-parallax-image="http://jthemes.org/wp/landpick/demos/wp-content/themes/landpick/images/banner-1.jpg"
+                 data-opacity="1" data-size="cover" data-width="100%" data-position="cover" data-repeat="cover"
+                 data-attachment="inherit" class="vc_section">
+            <div class="bg-white wide-100      ">
+                <div>
+                    <div class="container">
+                        <div class="vc_row wpb_row vc_row-fluid bg-tra bg-inherit vc_row-o-content-middle vc_row-flex">
+                            <div class="wpb_column vc_column_container vc_col-sm-12 bg-tra">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper ">
+                                        <div class="section-title  wow perch-fadeInUp fadeInUp text-center"
+                                             data-wow-delay="300ms" data-wow-duration="1000ms"
+                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                                            <h3 class="Default h3-md none">Our Stories &amp; Latest News</h3>
+                                            <p class="Default p-md none">Aliquam a augue suscipit, luctus neque purus
+                                                ipsum neque dolor primis libero tempus, tempor posuere ligula varius
+                                                ullam libero</p>
+                                        </div>
+                                        <div class="wow perch-fadeInUp fadeInUp" data-wow-delay="300ms"
                                              data-wow-duration="1000ms"
                                              style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                            <div class="fbox grey-color-box">
-                                                <div class="grey-color-icon b-icon box-icon-md"><span
-                                                            class="flaticon-080-shield grey-color"></span></div>
-                                                <div class="sbox-2-txt">
-                                                    <h5 class="h5-sm">Concrete Security</h5>
-                                                    <p class="grey-color">Porta semper lacus cursus, feugiat primis
-                                                        ultrice in ligula risus auctor tempus feugiat dolor impedit
-                                                        felis magna dolor vitae</p>
+                                            <div class="row">
+                                                <div class="col-md-6 col-lg-4">
+                                                    <div class="blog-post mb-40">
+                                                        <div class="blog-post-txt">
+                                                            <p class="post-meta theme-color"><a class="post-time"
+                                                                                                href="http://jthemes.org/wp/landpick/demos/2019/02/09/professional-business-approach-since-day-one/"
+                                                                                                rel="bookmark"><span><time
+                                                                                class="entry-date published updated"
+                                                                                datetime="2019-02-09T15:10:17+00:00">February 9, 2019</time></span></a><span
+                                                                        class="theme-color">&nbsp;in&nbsp;<a
+                                                                            href="http://jthemes.org/wp/landpick/demos/category/technology/"
+                                                                            rel="category tag">Technology</a></span></p>
+
+                                                            <h5 class="h5-sm"><a
+                                                                        href="http://jthemes.org/wp/landpick/demos/2019/02/09/professional-business-approach-since-day-one/">Professional
+                                                                    Business Approach Since Day One</a></h5>
+                                                            <!-- Post Title -->
+                                                            Aliqum mullam blandit tempor sapien gravida donec ipsum, at
+                                                            porta justo. Velna vitae auctor congue magna nihil
+                                                            impedit...
+                                                        </div><!-- BLOG POST TEXT -->
+
+
+                                                        <div class="blog-post-img">
+
+                                                            <img src="http://jthemes.org/wp/landpick/demos/wp-content/uploads/2019/02/post-7-img.jpg"
+                                                                 alt="Professional Business Approach Since Day One"
+                                                                 class="img-fluid">
+                                                        </div><!-- BLOG POST IMAGE -->
+
+
+                                                        <div class="blog-post-link">
+                                                            <h5 class="h5-xs"><a
+                                                                        href="http://jthemes.org/wp/landpick/demos/2019/02/09/professional-business-approach-since-day-one/">More
+                                                                    Details</a></h5>
+                                                            <div class="footer-meta"><span> <span class="perch-wrapper"><a
+                                                                                href="http://jthemes.org/wp/landpick/demos/wp-admin/admin-ajax.php?action=process_simple_like&amp;post_id=135&amp;nonce=371fccd11d&amp;is_comment=0&amp;disabled=true"
+                                                                                class="perch-button perch-button-135"
+                                                                                data-nonce="371fccd11d"
+                                                                                data-post-id="135" data-iscomment="0"
+                                                                                title="Like"><svg
+                                                                                    class="svg-inline--fa fa-heart fa-w-16"
+                                                                                    aria-hidden="true" data-prefix="far"
+                                                                                    data-icon="heart" role="img"
+                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                    viewBox="0 0 512 512"
+                                                                                    data-fa-i2svg=""><path
+                                                                                        fill="currentColor"
+                                                                                        d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg>
+                                                                            <!-- <i class="fa fa-heart-o"></i> --><span
+                                                                                    class="perch-count">10</span></a></span></span><span
+                                                                        class="comments-meta"><a class="comments"
+                                                                                                 href="http://jthemes.org/wp/landpick/demos/2019/02/09/professional-business-approach-since-day-one/#comments"><svg
+                                                                                class="svg-inline--fa fa-comment fa-w-16"
+                                                                                aria-hidden="true" data-prefix="far"
+                                                                                data-icon="comment" role="img"
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                viewBox="0 0 512 512" data-fa-i2svg=""><path
+                                                                                    fill="currentColor"
+                                                                                    d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path></svg>
+                                                                        <!-- <i class="far fa-comment"></i> --><span>5</span></a></span>
+                                                            </div>
+                                                        </div><!-- Post Link -->
+
+                                                    </div>
                                                 </div>
+
+                                                <div class="col-md-6 col-lg-4">
+                                                    <div class="blog-post mb-40">
+                                                        <div class="blog-post-txt">
+                                                            <p class="post-meta theme-color"><a class="post-time"
+                                                                                                href="http://jthemes.org/wp/landpick/demos/2019/02/09/solve-your-online-business-with-landpick/"
+                                                                                                rel="bookmark"><span><time
+                                                                                class="entry-date published updated"
+                                                                                datetime="2019-02-09T15:07:32+00:00">February 9, 2019</time></span></a><span
+                                                                        class="theme-color">&nbsp;in&nbsp;<a
+                                                                            href="http://jthemes.org/wp/landpick/demos/category/web-design/"
+                                                                            rel="category tag">Web Design</a></span></p>
+
+                                                            <h5 class="h5-sm"><a
+                                                                        href="http://jthemes.org/wp/landpick/demos/2019/02/09/solve-your-online-business-with-landpick/">Solve
+                                                                    your online business with LandPick</a></h5>
+                                                            <!-- Post Title -->
+                                                            Aliqum mullam blandit tempor sapien gravida donec ipsum, at
+                                                            porta justo. Velna vitae auctor congue magna nihil
+                                                            impedit...
+                                                        </div><!-- BLOG POST TEXT -->
+
+
+                                                        <div class="blog-post-img">
+
+                                                            <img src="http://jthemes.org/wp/landpick/demos/wp-content/uploads/2019/02/post-6-img.jpg"
+                                                                 alt="Solve your online business with LandPick"
+                                                                 class="img-fluid">
+                                                        </div><!-- BLOG POST IMAGE -->
+
+
+                                                        <div class="blog-post-link">
+                                                            <h5 class="h5-xs"><a
+                                                                        href="http://jthemes.org/wp/landpick/demos/2019/02/09/solve-your-online-business-with-landpick/">More
+                                                                    Details</a></h5>
+                                                            <div class="footer-meta"><span> <span class="perch-wrapper"><a
+                                                                                href="http://jthemes.org/wp/landpick/demos/wp-admin/admin-ajax.php?action=process_simple_like&amp;post_id=131&amp;nonce=371fccd11d&amp;is_comment=0&amp;disabled=true"
+                                                                                class="perch-button perch-button-131"
+                                                                                data-nonce="371fccd11d"
+                                                                                data-post-id="131" data-iscomment="0"
+                                                                                title="Like"><svg
+                                                                                    class="svg-inline--fa fa-heart fa-w-16"
+                                                                                    aria-hidden="true" data-prefix="far"
+                                                                                    data-icon="heart" role="img"
+                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                    viewBox="0 0 512 512"
+                                                                                    data-fa-i2svg=""><path
+                                                                                        fill="currentColor"
+                                                                                        d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg>
+                                                                            <!-- <i class="fa fa-heart-o"></i> --><span
+                                                                                    class="perch-count">9</span></a></span></span><span
+                                                                        class="comments-meta"><a class="comments"
+                                                                                                 href="http://jthemes.org/wp/landpick/demos/2019/02/09/solve-your-online-business-with-landpick/#comments"><svg
+                                                                                class="svg-inline--fa fa-comment fa-w-16"
+                                                                                aria-hidden="true" data-prefix="far"
+                                                                                data-icon="comment" role="img"
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                viewBox="0 0 512 512" data-fa-i2svg=""><path
+                                                                                    fill="currentColor"
+                                                                                    d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path></svg>
+                                                                        <!-- <i class="far fa-comment"></i> --><span>3</span></a></span>
+                                                            </div>
+                                                        </div><!-- Post Link -->
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6 col-lg-4">
+                                                    <div class="blog-post mb-40">
+                                                        <div class="blog-post-txt">
+                                                            <p class="post-meta theme-color"><a class="post-time"
+                                                                                                href="http://jthemes.org/wp/landpick/demos/2019/02/09/choose-a-powerful-design-for-your-business/"
+                                                                                                rel="bookmark"><span><time
+                                                                                class="entry-date published updated"
+                                                                                datetime="2019-02-09T15:02:44+00:00">February 9, 2019</time></span></a><span
+                                                                        class="theme-color">&nbsp;in&nbsp;<a
+                                                                            href="http://jthemes.org/wp/landpick/demos/category/web-design/"
+                                                                            rel="category tag">Web Design</a></span></p>
+
+                                                            <h5 class="h5-sm"><a
+                                                                        href="http://jthemes.org/wp/landpick/demos/2019/02/09/choose-a-powerful-design-for-your-business/">Choose
+                                                                    a powerful design for your business</a></h5>
+                                                            <!-- Post Title -->
+                                                            Aliqum mullam blandit tempor sapien gravida donec ipsum, at
+                                                            porta justo. Velna vitae auctor congue magna nihil
+                                                            impedit...
+                                                        </div><!-- BLOG POST TEXT -->
+
+
+                                                        <div class="blog-post-img">
+
+                                                            <img src="http://jthemes.org/wp/landpick/demos/wp-content/uploads/2019/02/post-8-img.jpg"
+                                                                 alt="Choose a powerful design for your business"
+                                                                 class="img-fluid">
+                                                        </div><!-- BLOG POST IMAGE -->
+
+
+                                                        <div class="blog-post-link">
+                                                            <h5 class="h5-xs"><a
+                                                                        href="http://jthemes.org/wp/landpick/demos/2019/02/09/choose-a-powerful-design-for-your-business/">More
+                                                                    Details</a></h5>
+                                                            <div class="footer-meta"><span> <span class="perch-wrapper"><a
+                                                                                href="http://jthemes.org/wp/landpick/demos/wp-admin/admin-ajax.php?action=process_simple_like&amp;post_id=128&amp;nonce=371fccd11d&amp;is_comment=0&amp;disabled=true"
+                                                                                class="perch-button perch-button-128"
+                                                                                data-nonce="371fccd11d"
+                                                                                data-post-id="128" data-iscomment="0"
+                                                                                title="Like"><svg
+                                                                                    class="svg-inline--fa fa-heart fa-w-16"
+                                                                                    aria-hidden="true" data-prefix="far"
+                                                                                    data-icon="heart" role="img"
+                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                    viewBox="0 0 512 512"
+                                                                                    data-fa-i2svg=""><path
+                                                                                        fill="currentColor"
+                                                                                        d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg>
+                                                                            <!-- <i class="fa fa-heart-o"></i> --><span
+                                                                                    class="perch-count">15</span></a></span></span><span
+                                                                        class="comments-meta"><a class="comments"
+                                                                                                 href="http://jthemes.org/wp/landpick/demos/2019/02/09/choose-a-powerful-design-for-your-business/#comments"><svg
+                                                                                class="svg-inline--fa fa-comment fa-w-16"
+                                                                                aria-hidden="true" data-prefix="far"
+                                                                                data-icon="comment" role="img"
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                viewBox="0 0 512 512" data-fa-i2svg=""><path
+                                                                                    fill="currentColor"
+                                                                                    d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path></svg>
+                                                                        <!-- <i class="far fa-comment"></i> --><span>2</span></a></span>
+                                                            </div>
+                                                        </div><!-- Post Link -->
+
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+
+
+                                        </div>
+                                        <div class="wpb_text_column wpb_content_element  vc_custom_1550673106759">
+                                            <div class="wpb_wrapper">
+                                                <div class="all-posts-btn wow fadeInUp"
+                                                     style="visibility: visible; animation-delay: 1.2s; animation-name: fadeInUp; text-align: center;"
+                                                     data-wow-delay="1.2s"><a href="blog-listing.html">Read more posts
+                                                        &amp; stories from LandPick<br>
+                                                    </a></div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -5091,123 +5598,7 @@
             </div>
         </section>
         <div class="vc_row-full-width vc_clearfix"></div>
-        <section id="pricing" data-vc-full-width="false" data-vc-full-width-init="false"
-                 data-vc-parallax-image="http://jthemes.org/wp/landpick/demos/wp-content/themes/landpick/images/banner-1.jpg"
-                 data-opacity="1" data-size="cover" data-width="100%" data-position="cover" data-repeat="cover"
-                 data-attachment="inherit" class="vc_section">
-            <div id="pricing-1" class="bg-lightgrey wide-60 pricing-section      ">
-                <div>
-                    <div class="container">
-                        <div class="vc_row wpb_row vc_row-fluid bg-tra bg-inherit vc_row-o-content-middle vc_row-flex">
-                            <div class="wpb_column vc_column_container vc_col-sm-12 bg-tra">
-                                <div class="vc_column-inner">
-                                    <div class="wpb_wrapper ">
-                                        <div class="section-title  wow perch-fadeInUp fadeInUp text-center"
-                                             data-wow-delay="300ms" data-wow-duration="1000ms"
-                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                            <h3 class="Default h3-md none">Simple Pricing, Instant Sign Up</h3>
-                                            <p class="Default p-md none">Aliquam a augue suscipit, luctus neque purus
-                                                ipsum neque dolor primis libero tempus, tempor posuere ligula varius
-                                                ullam libero</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="vc_row wpb_row vc_row-fluid pricing-row bg-tra bg-inherit vc_row-o-content-middle vc_row-flex mul-cols">
-                            <div class="wpb_column vc_column_container vc_col-sm-4 bg-tra">
-                                <div class="vc_column-inner">
-                                    <div class="wpb_wrapper ">
-                                        <div class="wow perch-fadeInUp fadeInUp" data-wow-delay="300ms"
-                                             data-wow-duration="1000ms"
-                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                            <div class="pricing-table">
-                                                <div class="pricing-title"><h4 class="h4-xs">Starter</h4></div>
-                                                <div class="pricing-text">
 
-                                                </div>
-                                                <ul class="features">
-                                                    <li>10 Users Tasks</li>
-                                                    <li>5 GB in Cloud Storage</li>
-                                                    <li>10 mySQL Database</li>
-                                                    <li>Email Support</li>
-                                                </ul>
-                                                <div class="pricing-plan price">
-                                                    <sup>$</sup><span class="price">5</span><sup class="pricing-coins">99</sup>
-                                                    <p class="validity">monthly</p>
-
-                                                </div>
-                                                <a target="_self" href="#" title="Get Started Now"
-                                                   class="btn btn-tra-black btn-type-light btn-hover-type-dark"><span>Get Started Now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="wpb_column vc_column_container vc_col-sm-4 bg-tra">
-                                <div class="vc_column-inner">
-                                    <div class="wpb_wrapper ">
-                                        <div class="wow perch-fadeInUp fadeInUp" data-wow-delay="300ms"
-                                             data-wow-duration="1000ms"
-                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                            <div class="pricing-table">
-                                                <div class="pricing-title"><h4 class="h4-xs">Basic</h4></div>
-                                                <div class="pricing-text">
-
-                                                </div>
-                                                <ul class="features">
-                                                    <li>50 Users Tasks</li>
-                                                    <li>500 GB in Cloud Storage</li>
-                                                    <li>25 mySQL Database</li>
-                                                    <li>12/7 Premium Support</li>
-                                                </ul>
-                                                <div class="pricing-plan price">
-                                                    <sup>$</sup><span class="price">39</span><sup class="pricing-coins">99</sup>
-                                                    <p class="validity">monthly</p>
-
-                                                </div>
-                                                <a target="_self" href="#" title="Get Started Now"
-                                                   class="btn btn-lightblue btn-type-dark"><span>Get Started Now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="wpb_column vc_column_container vc_col-sm-4 bg-tra last-column">
-                                <div class="vc_column-inner">
-                                    <div class="wpb_wrapper ">
-                                        <div class="wow perch-fadeInUp fadeInUp" data-wow-delay="300ms"
-                                             data-wow-duration="1000ms"
-                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                            <div class="pricing-table">
-                                                <div class="pricing-title"><h4 class="h4-xs">Premium</h4></div>
-                                                <div class="pricing-text">
-
-                                                </div>
-                                                <ul class="features">
-                                                    <li>100 Users Tasks</li>
-                                                    <li>100 GB in Cloud Storage</li>
-                                                    <li>50 mySQL Database</li>
-                                                    <li>24/7 Premium Support</li>
-                                                </ul>
-                                                <div class="pricing-plan price">
-                                                    <sup>$</sup><span class="price">99</span><sup class="pricing-coins">99</sup>
-                                                    <p class="validity">monthly</p>
-
-                                                </div>
-                                                <a target="_self" href="#" title="Get Started Now"
-                                                   class="btn btn-tra-black btn-type-light btn-hover-type-dark"><span>Get Started Now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="vc_row-full-width vc_clearfix"></div>
         <section id="coustomer" data-vc-full-width="false" data-vc-full-width-init="false"
                  data-vc-parallax-image="http://jthemes.org/wp/landpick/demos/wp-content/themes/landpick/images/banner-1.jpg"
                  data-opacity="1" data-size="cover" data-width="100%" data-position="cover" data-repeat="cover"
@@ -5455,251 +5846,6 @@
                                                 <a target="_blank" href="#" title="Lets Started"
                                                    class="btn btn-blue store btn-type-dark"><span>Lets Started</span></a>
                                                 <div class="os-version"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="vc_row-full-width vc_clearfix"></div>
-        <section id="blog-1" data-vc-full-width="false" data-vc-full-width-init="false"
-                 data-vc-parallax-image="http://jthemes.org/wp/landpick/demos/wp-content/themes/landpick/images/banner-1.jpg"
-                 data-opacity="1" data-size="cover" data-width="100%" data-position="cover" data-repeat="cover"
-                 data-attachment="inherit" class="vc_section">
-            <div class="bg-white wide-100      ">
-                <div>
-                    <div class="container">
-                        <div class="vc_row wpb_row vc_row-fluid bg-tra bg-inherit vc_row-o-content-middle vc_row-flex">
-                            <div class="wpb_column vc_column_container vc_col-sm-12 bg-tra">
-                                <div class="vc_column-inner">
-                                    <div class="wpb_wrapper ">
-                                        <div class="section-title  wow perch-fadeInUp fadeInUp text-center"
-                                             data-wow-delay="300ms" data-wow-duration="1000ms"
-                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                            <h3 class="Default h3-md none">Our Stories &amp; Latest News</h3>
-                                            <p class="Default p-md none">Aliquam a augue suscipit, luctus neque purus
-                                                ipsum neque dolor primis libero tempus, tempor posuere ligula varius
-                                                ullam libero</p>
-                                        </div>
-                                        <div class="wow perch-fadeInUp fadeInUp" data-wow-delay="300ms"
-                                             data-wow-duration="1000ms"
-                                             style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                                            <div class="row">
-                                                <div class="col-md-6 col-lg-4">
-                                                    <div class="blog-post mb-40">
-                                                        <div class="blog-post-txt">
-                                                            <p class="post-meta theme-color"><a class="post-time"
-                                                                                                href="http://jthemes.org/wp/landpick/demos/2019/02/09/professional-business-approach-since-day-one/"
-                                                                                                rel="bookmark"><span><time
-                                                                                class="entry-date published updated"
-                                                                                datetime="2019-02-09T15:10:17+00:00">February 9, 2019</time></span></a><span
-                                                                        class="theme-color">&nbsp;in&nbsp;<a
-                                                                            href="http://jthemes.org/wp/landpick/demos/category/technology/"
-                                                                            rel="category tag">Technology</a></span></p>
-
-                                                            <h5 class="h5-sm"><a
-                                                                        href="http://jthemes.org/wp/landpick/demos/2019/02/09/professional-business-approach-since-day-one/">Professional
-                                                                    Business Approach Since Day One</a></h5>
-                                                            <!-- Post Title -->
-                                                            Aliqum mullam blandit tempor sapien gravida donec ipsum, at
-                                                            porta justo. Velna vitae auctor congue magna nihil
-                                                            impedit...
-                                                        </div><!-- BLOG POST TEXT -->
-
-
-                                                        <div class="blog-post-img">
-
-                                                            <img src="http://jthemes.org/wp/landpick/demos/wp-content/uploads/2019/02/post-7-img.jpg"
-                                                                 alt="Professional Business Approach Since Day One"
-                                                                 class="img-fluid">
-                                                        </div><!-- BLOG POST IMAGE -->
-
-
-                                                        <div class="blog-post-link">
-                                                            <h5 class="h5-xs"><a
-                                                                        href="http://jthemes.org/wp/landpick/demos/2019/02/09/professional-business-approach-since-day-one/">More
-                                                                    Details</a></h5>
-                                                            <div class="footer-meta"><span> <span class="perch-wrapper"><a
-                                                                                href="http://jthemes.org/wp/landpick/demos/wp-admin/admin-ajax.php?action=process_simple_like&amp;post_id=135&amp;nonce=371fccd11d&amp;is_comment=0&amp;disabled=true"
-                                                                                class="perch-button perch-button-135"
-                                                                                data-nonce="371fccd11d"
-                                                                                data-post-id="135" data-iscomment="0"
-                                                                                title="Like"><svg
-                                                                                    class="svg-inline--fa fa-heart fa-w-16"
-                                                                                    aria-hidden="true" data-prefix="far"
-                                                                                    data-icon="heart" role="img"
-                                                                                    xmlns="http://www.w3.org/2000/svg"
-                                                                                    viewBox="0 0 512 512"
-                                                                                    data-fa-i2svg=""><path
-                                                                                        fill="currentColor"
-                                                                                        d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg>
-                                                                            <!-- <i class="fa fa-heart-o"></i> --><span
-                                                                                    class="perch-count">10</span></a></span></span><span
-                                                                        class="comments-meta"><a class="comments"
-                                                                                                 href="http://jthemes.org/wp/landpick/demos/2019/02/09/professional-business-approach-since-day-one/#comments"><svg
-                                                                                class="svg-inline--fa fa-comment fa-w-16"
-                                                                                aria-hidden="true" data-prefix="far"
-                                                                                data-icon="comment" role="img"
-                                                                                xmlns="http://www.w3.org/2000/svg"
-                                                                                viewBox="0 0 512 512" data-fa-i2svg=""><path
-                                                                                    fill="currentColor"
-                                                                                    d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path></svg>
-                                                                        <!-- <i class="far fa-comment"></i> --><span>5</span></a></span>
-                                                            </div>
-                                                        </div><!-- Post Link -->
-
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-6 col-lg-4">
-                                                    <div class="blog-post mb-40">
-                                                        <div class="blog-post-txt">
-                                                            <p class="post-meta theme-color"><a class="post-time"
-                                                                                                href="http://jthemes.org/wp/landpick/demos/2019/02/09/solve-your-online-business-with-landpick/"
-                                                                                                rel="bookmark"><span><time
-                                                                                class="entry-date published updated"
-                                                                                datetime="2019-02-09T15:07:32+00:00">February 9, 2019</time></span></a><span
-                                                                        class="theme-color">&nbsp;in&nbsp;<a
-                                                                            href="http://jthemes.org/wp/landpick/demos/category/web-design/"
-                                                                            rel="category tag">Web Design</a></span></p>
-
-                                                            <h5 class="h5-sm"><a
-                                                                        href="http://jthemes.org/wp/landpick/demos/2019/02/09/solve-your-online-business-with-landpick/">Solve
-                                                                    your online business with LandPick</a></h5>
-                                                            <!-- Post Title -->
-                                                            Aliqum mullam blandit tempor sapien gravida donec ipsum, at
-                                                            porta justo. Velna vitae auctor congue magna nihil
-                                                            impedit...
-                                                        </div><!-- BLOG POST TEXT -->
-
-
-                                                        <div class="blog-post-img">
-
-                                                            <img src="http://jthemes.org/wp/landpick/demos/wp-content/uploads/2019/02/post-6-img.jpg"
-                                                                 alt="Solve your online business with LandPick"
-                                                                 class="img-fluid">
-                                                        </div><!-- BLOG POST IMAGE -->
-
-
-                                                        <div class="blog-post-link">
-                                                            <h5 class="h5-xs"><a
-                                                                        href="http://jthemes.org/wp/landpick/demos/2019/02/09/solve-your-online-business-with-landpick/">More
-                                                                    Details</a></h5>
-                                                            <div class="footer-meta"><span> <span class="perch-wrapper"><a
-                                                                                href="http://jthemes.org/wp/landpick/demos/wp-admin/admin-ajax.php?action=process_simple_like&amp;post_id=131&amp;nonce=371fccd11d&amp;is_comment=0&amp;disabled=true"
-                                                                                class="perch-button perch-button-131"
-                                                                                data-nonce="371fccd11d"
-                                                                                data-post-id="131" data-iscomment="0"
-                                                                                title="Like"><svg
-                                                                                    class="svg-inline--fa fa-heart fa-w-16"
-                                                                                    aria-hidden="true" data-prefix="far"
-                                                                                    data-icon="heart" role="img"
-                                                                                    xmlns="http://www.w3.org/2000/svg"
-                                                                                    viewBox="0 0 512 512"
-                                                                                    data-fa-i2svg=""><path
-                                                                                        fill="currentColor"
-                                                                                        d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg>
-                                                                            <!-- <i class="fa fa-heart-o"></i> --><span
-                                                                                    class="perch-count">9</span></a></span></span><span
-                                                                        class="comments-meta"><a class="comments"
-                                                                                                 href="http://jthemes.org/wp/landpick/demos/2019/02/09/solve-your-online-business-with-landpick/#comments"><svg
-                                                                                class="svg-inline--fa fa-comment fa-w-16"
-                                                                                aria-hidden="true" data-prefix="far"
-                                                                                data-icon="comment" role="img"
-                                                                                xmlns="http://www.w3.org/2000/svg"
-                                                                                viewBox="0 0 512 512" data-fa-i2svg=""><path
-                                                                                    fill="currentColor"
-                                                                                    d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path></svg>
-                                                                        <!-- <i class="far fa-comment"></i> --><span>3</span></a></span>
-                                                            </div>
-                                                        </div><!-- Post Link -->
-
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-6 col-lg-4">
-                                                    <div class="blog-post mb-40">
-                                                        <div class="blog-post-txt">
-                                                            <p class="post-meta theme-color"><a class="post-time"
-                                                                                                href="http://jthemes.org/wp/landpick/demos/2019/02/09/choose-a-powerful-design-for-your-business/"
-                                                                                                rel="bookmark"><span><time
-                                                                                class="entry-date published updated"
-                                                                                datetime="2019-02-09T15:02:44+00:00">February 9, 2019</time></span></a><span
-                                                                        class="theme-color">&nbsp;in&nbsp;<a
-                                                                            href="http://jthemes.org/wp/landpick/demos/category/web-design/"
-                                                                            rel="category tag">Web Design</a></span></p>
-
-                                                            <h5 class="h5-sm"><a
-                                                                        href="http://jthemes.org/wp/landpick/demos/2019/02/09/choose-a-powerful-design-for-your-business/">Choose
-                                                                    a powerful design for your business</a></h5>
-                                                            <!-- Post Title -->
-                                                            Aliqum mullam blandit tempor sapien gravida donec ipsum, at
-                                                            porta justo. Velna vitae auctor congue magna nihil
-                                                            impedit...
-                                                        </div><!-- BLOG POST TEXT -->
-
-
-                                                        <div class="blog-post-img">
-
-                                                            <img src="http://jthemes.org/wp/landpick/demos/wp-content/uploads/2019/02/post-8-img.jpg"
-                                                                 alt="Choose a powerful design for your business"
-                                                                 class="img-fluid">
-                                                        </div><!-- BLOG POST IMAGE -->
-
-
-                                                        <div class="blog-post-link">
-                                                            <h5 class="h5-xs"><a
-                                                                        href="http://jthemes.org/wp/landpick/demos/2019/02/09/choose-a-powerful-design-for-your-business/">More
-                                                                    Details</a></h5>
-                                                            <div class="footer-meta"><span> <span class="perch-wrapper"><a
-                                                                                href="http://jthemes.org/wp/landpick/demos/wp-admin/admin-ajax.php?action=process_simple_like&amp;post_id=128&amp;nonce=371fccd11d&amp;is_comment=0&amp;disabled=true"
-                                                                                class="perch-button perch-button-128"
-                                                                                data-nonce="371fccd11d"
-                                                                                data-post-id="128" data-iscomment="0"
-                                                                                title="Like"><svg
-                                                                                    class="svg-inline--fa fa-heart fa-w-16"
-                                                                                    aria-hidden="true" data-prefix="far"
-                                                                                    data-icon="heart" role="img"
-                                                                                    xmlns="http://www.w3.org/2000/svg"
-                                                                                    viewBox="0 0 512 512"
-                                                                                    data-fa-i2svg=""><path
-                                                                                        fill="currentColor"
-                                                                                        d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg>
-                                                                            <!-- <i class="fa fa-heart-o"></i> --><span
-                                                                                    class="perch-count">15</span></a></span></span><span
-                                                                        class="comments-meta"><a class="comments"
-                                                                                                 href="http://jthemes.org/wp/landpick/demos/2019/02/09/choose-a-powerful-design-for-your-business/#comments"><svg
-                                                                                class="svg-inline--fa fa-comment fa-w-16"
-                                                                                aria-hidden="true" data-prefix="far"
-                                                                                data-icon="comment" role="img"
-                                                                                xmlns="http://www.w3.org/2000/svg"
-                                                                                viewBox="0 0 512 512" data-fa-i2svg=""><path
-                                                                                    fill="currentColor"
-                                                                                    d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path></svg>
-                                                                        <!-- <i class="far fa-comment"></i> --><span>2</span></a></span>
-                                                            </div>
-                                                        </div><!-- Post Link -->
-
-                                                    </div>
-                                                </div>
-
-
-                                            </div>
-
-
-                                        </div>
-                                        <div class="wpb_text_column wpb_content_element  vc_custom_1550673106759">
-                                            <div class="wpb_wrapper">
-                                                <div class="all-posts-btn wow fadeInUp"
-                                                     style="visibility: visible; animation-delay: 1.2s; animation-name: fadeInUp; text-align: center;"
-                                                     data-wow-delay="1.2s"><a href="blog-listing.html">Read more posts
-                                                        &amp; stories from LandPick<br>
-                                                    </a></div>
-
                                             </div>
                                         </div>
                                     </div>
