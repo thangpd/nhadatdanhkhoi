@@ -1,0 +1,33 @@
+1.1.2 - 23th April, 2019
+Changelog:
+1. RTL CSS bug fixed
+2. Demo content files updated
+3. Shop widget area added
+4. JS files updated
+5. CSS fixed
+
+1.1.1 - 20th April, 2019
+Changelog:
+1. Woocommerce template files updated
+2. RTL Update
+3. .POT file updated
+4. CSS fixed
+5. JS files updated
+
+1.1.0 - 09th April, 2019
+Changelog:
+1. Plugin updated
+2. Woocommerce supported
+3. Demo data updated
+4. CSS fixed
+5. JS files updated
+
+1.0.1 - 23th March, 2019
+Changelog:
+1. Footer background options added For frontpage template
+2. CTA bug fixed
+3. Newsletter area bug fixed
+4. CSS file updated
+
+1.0.0 - 21th March, 2019
+Initial released

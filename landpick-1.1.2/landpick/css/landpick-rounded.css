@@ -1,0 +1,13 @@
+.landpick-layout-rounded.woocommerce div.product .woocommerce-tabs ul.tabs li.active a, 
+.landpick-layout-rounded.wpb-js-composer .vc_tta-tabs.vc_tta-tabs-position-top.vc_tta-style-landpick .vc_tta-tabs-list .vc_active a,
+.landpick-layout-rounded.woocommerce div.product .woocommerce-tabs ul.tabs, 
+.landpick-layout-rounded.wpb-js-composer .vc_tta-tabs.vc_tta-tabs-position-top.vc_tta-style-landpick .vc_tta-tabs-list,
+.landpick-layout-rounded.woocommerce button.button:disabled, 
+.landpick-layout-rounded.woocommerce button.button:disabled[disabled], 
+.landpick-layout-rounded.woocommerce .woocommerce-widget-layered-nav-dropdown__submit, 
+.landpick-layout-rounded.woocommerce #respond input#submit, 
+.landpick-layout-rounded.woocommerce a.button, 
+.landpick-layout-rounded.woocommerce button.button, 
+.landpick-layout-rounded .woocommerce input.button,
+.landpick-layout-rounded .portfolio-filter .btn-group > .btn,
+.landpick-layout-rounded .btn{ border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; }

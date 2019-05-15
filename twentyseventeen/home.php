@@ -5615,7 +5615,7 @@
                                              style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
                                             <h3 class="Default h3-md none">10k+ Customers Love LandPick</h3>
                                             <p class="Default p-md none">Aliquam a augue suscipit, luctus neque purus
-                                                ipsum neque dolor primis libero tempus, tempor posuere ligula varius
+                                                ipsum neque dolor preimis libero tempus, tempor posuere ligula varius
                                                 ullam libero</p>
                                         </div>
                                     </div>
