@@ -4307,26 +4307,7 @@
             font-size: 1rem;
         }
 
-        ul.list-style li {
-            padding: 0px 0px 25px 36px;
-            /* reset styles (optional): */
-            list-style: none;
-            margin: 0;
-
-        }
-
-        ul.list-style li {
-            background: url(https://doc-04-7c-docs.googleusercontent.com/docs/securesc/chj31eftgkuob7lr8r08nn35v9pue18f/sbokrnqc1d7pj0aoifr961tt1rju8jr8/1557900000000/01588698612832844545/05669134061175302781/1cwlUDGTG0e2LOKTMlmZCYEJFKIjUFOnG?h=14975806830107016286&e=view) no-repeat 0px 3px;
-            background-size: 20px;
-        }
-
-        ul.list-style-car li {
-            padding: 0px 0px 25px 45px;
-            /* reset styles (optional): */
-            list-style: none;
-            margin: 0;
-
-        }
+        m
 
         ul.list-style-car li {
             background: url(https://doc-10-7c-docs.googleusercontent.com/docs/securesc/chj31eftgkuob7lr8r08nn35v9pue18f/vgrkt692igno3c1gboef12280s1ca327/1557900000000/01588698612832844545/05669134061175302781/1_a9V5OrkW6kVxnkjSTXpzIaxaZkfZ9Q0?h=14975806830107016286&e=view) no-repeat 0px 3px;
@@ -4793,37 +4774,37 @@
                                                 <p></p>
                                                 <ul class="list-style">
                                                     <li>
-                                                        
+
                                                         <span>
                                                             Tên dự án: <strong>KHU ĐÔ THỊ DU LỊCH SINH THÁI NHƠN HỘI</strong>
                                                         </span>
                                                     </li>
                                                     <li>
-                                                        
+
                                                         <span>
                                                             <strong>Pháp Lý:</strong> Sổ đỏ sở hữu lâu dài
                                                         </span>
                                                     </li>
                                                     <li>
-                                                        
+
                                                         <span>
                                                             <strong>Vị Trí:</strong> NHƠN LÝ, NHƠN HỘI LIỀN KỀ FLC BEACH & GOLF RESORT QUY NHƠN
                                                         </span>
                                                     </li>
                                                     <li>
-                                                        
+
                                                         <span>
                                                            <strong>Mô Tả Chi Tiết:</strong> Sở hữu tiền đại lộ dài 300m, bờ biển của dự án dài hơn 300m
                                                         </span>
                                                     </li>
                                                     <li>
-                                                        
+
                                                         <span>
                                                             <strong>Tổng Diện Tích:</strong> 161.756 m2
                                                         </span>
                                                     </li>
                                                     <li>
-                                                        
+
                                                         <span>
                                                            <strong>Sản Phẩm:</strong> Nhà phố, nhà ở kết hợp thương mại
                                                         </span>
