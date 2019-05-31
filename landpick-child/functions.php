@@ -34,7 +34,18 @@ if ( ! function_exists( "landpick_enqueue_footer_custom" ) ) {
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MTVBV9R');</script>";
+})(window,document,'script','dataLayer','GTM-MTVBV9R');</script>
+
+
+<div class=\"phonering-alo-phone phonering-alo-green phonering-alo-show\" id=\"phonering-alo-phoneIcon\">
+<div class=\"phonering-alo-ph-circle\"></div>
+ <div class=\"phonering-alo-ph-circle-fill\"></div>
+<a href=\"tel:+84123456789\" class=\"pps-btn-img\" title=\"Liên hệ\">
+ <div class=\"phonering-alo-ph-img-circle\"></div>
+ </a>
+</div>
+
+";
 
 	}
 
